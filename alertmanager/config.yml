@@ -12,10 +12,10 @@ route:
 receivers:
   - name: 'email_notifications'
     email_configs:
-      - to: 'drivemax26@gmail.com'
-        from: 'drivemax26@gmail.com'
+      - to: 'test@gmail.com'
+        from: 'test@gmail.com'
         smarthost: 'smtp.gmail.com:587'
-        auth_username: 'drivemax26@gmail.com'
-        auth_password: 'gujy owqg isuk pcnv'
-        auth_identity: 'drivemax26@gmail.com'
+        auth_username: 'test@gmail.com'
+        auth_password: 'pass'
+        auth_identity: 'test@gmail.com'
         require_tls: true
